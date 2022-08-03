@@ -1,0 +1,17 @@
+[package]
+name = "vanity"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+# parallel
+rayon = "1.5.1"
+
+# ethers-rs
+ethers = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
+
+# miscs
+regex = { version = "1.5.4", default-features = false }
